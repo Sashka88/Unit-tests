@@ -16,7 +16,7 @@ public class Pen {
     }
 
     public Pen(int inkContainerValue, double sizeLetter, String color) {
-        this(inkContainerValue,sizeLetter);
+        this(inkContainerValue, sizeLetter);
         this.color = color;
     }
 
@@ -24,9 +24,8 @@ public class Pen {
         if (!isWork()) {
             return "";
         }
-        double sizeOfWord = word.length()*sizeLetter;
-        if (sizeOfWord<=inkContainerValue)
-        {
+        double sizeOfWord = word.length() * sizeLetter;
+        if (sizeOfWord <= inkContainerValue) {
             inkContainerValue -= sizeOfWord;
             return word;
         }
@@ -36,7 +35,7 @@ public class Pen {
     }
 
     // ERROR!!! Bug
-    public String getColor(){
+    public String getColor() {
         return "BLUE";
     }
 
@@ -44,9 +43,8 @@ public class Pen {
         return inkContainerValue > 0;
     }
 
-    public void doSomethingElse(){
+    public void doSomethingElse() {
         System.out.println(color);
     }
-
 }
 

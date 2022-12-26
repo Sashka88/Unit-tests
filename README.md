@@ -9,9 +9,13 @@ Launch: clean, test
 
 # Found issues
 method getColor always return "BLUE"
+
 the pen uses ink to write spaces
+
 the pen writes word if size letter is null
+
 the pen writes word if size letter is negative
+
 StringIndexOutOfBoundsException error is returned
 
 

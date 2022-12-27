@@ -12,6 +12,8 @@ method getColor always return "BLUE"
 
 the pen uses ink to write spaces
 
+the pen uses ink to transfer carriage
+
 the pen writes word if size letter is null
 
 the pen writes word if size letter is negative

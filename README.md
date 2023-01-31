@@ -5,7 +5,7 @@ PenTest project was created for practice writing Unit tests
 Java project: Tested on JDK 11.0.12, Maven 3.8.6 
 
 # Maven 
-clean test 
+clean test -DtestngFile="testng.xml"
 
 # Found issues
 method getColor always return "BLUE"
